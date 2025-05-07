@@ -32,33 +32,6 @@ This project leverages several modern web technologies:
 - **Cannon.js**: Physics engine for realistic movement and collisions
 - **Vite**: Next-generation frontend tooling for faster development
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Node.js and npm/yarn installed on your machine
-
-### Installation
-
-```bash
-# Clone this repository
-git clone [your-repo-url]
-
-# Navigate to the project directory
-cd my-racing-game
-
-# Install dependencies
-npm install
-# or
-yarn
-
-# Start the development server
-npm run dev
-# or
-yarn dev
-```
-
-The game will be available at http://localhost:5173 in your browser.
-
 ## 📁 Project Structure
 
 ```
@@ -103,32 +76,6 @@ You can customize various aspects of the game:
 - Add new objects by creating new components
 - Adjust the camera settings in `src/components/Scene.jsx`
 
-## 🏗️ Building for Production
-
-To build the game for production:
-
-```bash
-npm run build
-# or
-yarn build
-```
-
-This will generate a `dist` folder with optimized production files that can be deployed to any static hosting service.
-
-## 🌐 Deployment
-
-The game can be deployed to various hosting platforms:
-
-- **GitHub Pages**: Perfect for hobby projects and demos
-- **Netlify/Vercel**: Supports continuous deployment from your repository
-- **AWS S3/CloudFront**: For scalable hosting solutions
-
-## 📝 Development Notes
-
-- The game uses Cannon.js for physics which can be computationally intensive. Performance optimization may be needed for complex scenes.
-- Three.js and React Three Fiber are rapidly evolving libraries. Keep dependencies updated for the best performance and features.
-- Mobile controls are not yet implemented but could be added using touch events or virtual joysticks.
-
 ## 🚧 Future Improvements
 
 - Add a lap timer and race functionality
@@ -140,4 +87,4 @@ The game can be deployed to various hosting platforms:
 
 ---
 
-Created with ❤️ using React Three Fiber 
+Created with ❤️ using React Three Fiber
